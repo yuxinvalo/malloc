@@ -1,0 +1,12 @@
+Malloc:
+  I have refer to http://www.inf.udec.cl/~leo/Malloc_tutorial.pdf this suppot
+when I do this project. We know that each process has its own virtual adress 
+space dynamically translated into physical memory adress space by the MMU (and 
+the kernel.) And for controling the distribution of memory, I need
+implementation metadata in each memory allocated, and I chose algo first-fit, 
+it's less difficult.
+  I think a difficult point is function free, how recover all the memory and how
+make it duplicate, these question make me confuse, mb I spent too much time in
+compilation instead of comprehension, I did my best.
+	
+
